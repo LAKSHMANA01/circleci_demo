@@ -11,6 +11,6 @@ version: 2.1
 	          steps:
 	            - run: npm install
 	            - run: npm test
-	workflows:
+workflows:
 	    build-and-test:
 	      jobs:- build-and-test
