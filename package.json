@@ -1,0 +1,19 @@
+{
+  "name": "circlci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": " mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "assert": "^2.1.0",
+    "express": "^5.1.0",
+    "node-mocks-http": "^1.17.2"
+  },
+  "devDependencies": {
+    "mocha": "^11.2.2"
+  }
+}
