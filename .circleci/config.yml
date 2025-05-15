@@ -14,6 +14,7 @@ jobs:
                 command: |
                    npm install --save-dev mocha
                    echo 'export PATH=./node_modules/.bin:$PATH' >> $BASH_ENV
+                   chmod 0777 ./node_modules/.bin/mocha
                    npm test
           
 workflows:
